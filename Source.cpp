@@ -3,7 +3,11 @@
 
 using namespace std;
 
+<<<<<<< HEAD
 double my_pow(double ch, int stepen) {
+=======
+double my_pow(double ch, unsigned int stepen) {
+>>>>>>> feature_fast
 	ch = pow(ch, stepen);
 	return ch;
 }
