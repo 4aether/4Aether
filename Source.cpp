@@ -1,11 +1,10 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 double my_pow(double ch, unsigned int stepen) {
-	int x = ch;
-	for (int i = 1; i < stepen; i++)
-		ch = x * ch;
+	ch = pow(ch, stepen);
 	return ch;
 }
 
